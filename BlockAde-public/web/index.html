@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7f6" />
+    <title>BlockAde</title>
+    <link rel="stylesheet" href="/app.css" />
+    <script src="/semester-data.js" defer></script>
+    <script src="/pbl-data.js" defer></script>
+    <script src="/pbl-match.js" defer></script>
+    <script src="/pbl-materials/matches.js" defer></script>
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#" aria-label="BlockAde 首頁"><strong>BlockAde</strong><small>Aid ur Blocks 讓你成為區段master</small></a>
+        <nav id="minimal-navigation" aria-label="主選單">
+          <button data-main-page="courses">課程</button>
+          <button data-main-page="timetable">課程時間表</button>
+          <button data-main-page="pbl">PBL</button>
+          <button data-main-page="banks">題庫</button>
+          <button data-main-page="wrong">錯題</button>
+        </nav>
+        <div id="course-list" hidden></div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar" hidden><strong id="breadcrumb-current">課程</strong></header>
+        <div id="app-content" class="content-area"></div>
+      </main>
+    </div>
+
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+    <div id="modal-root"></div>
+  </body>
+</html>

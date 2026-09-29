@@ -1,0 +1,7 @@
+# Optional local correction and forced alignment (Apple Silicon).
+mlx-lm==0.31.3
+stable-ts==2.19.1
+mlx==0.32.2
+transformers==5.17.0
+torch==2.14.0
+torchaudio==2.11.0
