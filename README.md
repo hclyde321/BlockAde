@@ -7,4 +7,3 @@
 程式碼位於 BlockAde-public 資料夾，安裝與使用方式請見：
 [使用說明](BlockAde-public/README.md)
 
-目前仍持續開發，尚未完成完整端到端測試。
